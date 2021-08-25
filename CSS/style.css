@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    animation: ani 3s both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header,
+.promoution {
+    width: 100%;
+}
+
+.logo_img {
+    height: 40px;
+    width: 180px;
+    background-image: url(..//img/logo.png);
+    background-size: contain;
+}
+
+.header_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.participate {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px -3px 30px -1px white;
+}
+
+.participate:hover {
+    background-color: #BD1818;
+    color: white;
+}
+
+.text_two {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgba(148, 148, 148, 0.87);
+}
+
+.text_one {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text_one span {
+    color: #BD1818;
+}
+
+.camry_img {
+    width: 1500px;
+    height: 850px;
+    background-image: url(..//img/camry2.png);
+    margin: 0 auto;
+    margin-top: 50px;
+    background-size: contain;
+    position: relative;
+}
+
+
+/* features */
+
+.feature {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.feature_img {
+    border: #bd18188e 0.5px solid;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: center;
+    background-color: black;
+    background-size: 50%;
+    background-position: center;
+    background-color: black;
+    box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.6) inset, -5px -5px 20px -5px rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+}
+
+.feature1_img {
+    background-image: url(..//img/reability.png);
+}
+
+.feature2_img {
+    background-image: url(..//img/fuel.png);
+}
+
+.feature3_img {
+    background-image: url(..//img/comfort.png);
+}
+
+.feature4_img {
+    background-image: url(..//img/service.png);
+}
+
+.feature1 {
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.feature2 {
+    margin-left: 40px;
+    margin-top: 400px;
+}
+
+.feature3 {
+    margin-left: 1190px;
+    margin-top: 40px;
+}
+
+.feature4 {
+    margin-left: 1270px;
+    margin-top: 400px;
+}
+
+.feature p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.conditions {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    display: none;
+}
+
+.conditions p {
+    margin: 0;
+    text-align: center;
+}
+
+.conditions i {
+    color: #BD1818;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.conditions .text_two {
+    margin-top: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    display: none;
+    text-align: center;
+}
+
+
+/* Adaptive */
+
+@media (max-width: 1700px) {
+    .feature1 {
+        margin-left: 100px;
+    }
+    .feature3 {
+        margin-left: 1150px;
+    }
+    .feature4 {
+        margin-left: 1200px;
+    }
+}
