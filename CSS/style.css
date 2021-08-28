@@ -35,6 +35,9 @@
         width: 95%;
         margin: 0 auto;
     }
+    .section{
+        height: 100vh;
+    }
     
     .slide_one,
     .slide_two,
@@ -52,7 +55,7 @@
     }
     
     .logo {
-        width: 10%;
+        /* width: 10%; */
         text-align: end;
         margin-left: 100px;
         padding-top: 40px;
@@ -368,7 +371,7 @@
         display: block;
         margin: 0 auto;
         width: 320px;
-        height: 80px;
+        height: 60px;
         background: linear-gradient(315deg, #d31720d5 44%, rgb(255, 255, 255) 100%);
         color: white;
         border: none;
@@ -445,8 +448,7 @@
     .question::after {
         display: block;
         content: " ";
-        position: absolute;
-        width: 660px;
+        width: 100%;
         background: #d31721c4;
         margin-top: 10px;
         height: 1px;
@@ -480,8 +482,8 @@
     
     .questions_part,
     .questions_two_part {
-        width: 40%;
-        margin-top: 154px;
+        /* width: 40%; */
+        margin-top: 80px;
     }
     /* six_slide */
     
@@ -706,12 +708,12 @@
             padding-top: 139px;
             text-align: center;
             width: 100%;
-            margin-top: -90px;
         }
         .information2 {
+            margin: 0 auto;
+            padding-top: 139px;
             text-align: center;
             width: 100%;
-            margin-top: 16px;
         }
         /* two */
         .slide_two {
@@ -783,15 +785,15 @@
         .placeholder-container {
             position: relative;
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         .win {
             width: 100%;
             margin: 0 auto;
             text-align: center;
             padding-left: 0px;
-            padding-top: 27px;
-            font-size: 60px;
+            padding-top: 33px;
+            font-size: 40px;
         }
         .feature {
             width: 100%;
@@ -834,7 +836,7 @@
             color: white;
             margin: 0;
             margin-bottom: 30px;
-            font-size: 60px;
+            font-size: 40px;
             font-weight: 400;
             position: relative;
             text-transform: uppercase;
@@ -862,10 +864,11 @@
         .five_header {
             display: flex;
             justify-content: space-around;
+            align-items: center;
         }
         .slide_five h1 {
             margin-top: 30px;
-            font-size: 90px;
+            font-size: 40px;
         }
         .FAQ {
             width: 100%;
@@ -883,7 +886,7 @@
         .question::after {
             display: block;
             width: 79%;
-            margin-top: 10px;
+            margin-top: 0;
             height: 1px;
         }
         .question_part p {
@@ -891,7 +894,7 @@
             display: none;
         }
         .question_part {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .questions {
             display: block;
@@ -908,7 +911,7 @@
             color: white;
             margin: 0;
             margin-bottom: 30px;
-            font-size: 70px;
+            font-size: 40px;
             font-weight: 400;
             position: relative;
             text-transform: uppercase;
@@ -916,17 +919,7 @@
         .placeholder-container {
             position: relative;
             width: 100%;
-            margin-bottom: 72px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 18px;
-            font-size: 60px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
+            margin-bottom: 30px;
         }
         .question {
             margin: 0 auto;
@@ -980,7 +973,7 @@
         }
         .placeholder-container label {
             color: white;
-            font-size: 32px;
+            font-size: 22px;
             padding-top: 10px;
             pointer-events: none;
             position: absolute;
@@ -998,13 +991,13 @@
         .slide_four p {
             text-align: center;
             width: 100%;
-            font-size: 26px;
+            font-size: 16px;
             margin: 0;
-            margin-top: 60px;
+            margin-top: 35px;
         }
         .slide_four a {
             color: rgb(172, 172, 172);
-            font-size: 26px;
+            font-size: 16px;
             text-decoration: none;
             font-weight: bold;
         }
@@ -1014,7 +1007,7 @@
         .placeholder-container {
             position: relative;
             width: 100%;
-            margin-bottom: 45px;
+            margin-bottom: 30px;
         }
         .placeholder-container input {
             border: none;
@@ -1025,15 +1018,15 @@
             color: white;
             font-size: 17px;
             line-height: 16px;
-            height: 64px;
+            height: 55px;
             outline: 0;
             padding: -7px 50px;
             width: 100%;
         }
         .placeholder-container label {
             color: white;
-            font-size: 26px;
-            padding-top: 13px;
+            font-size: 22px;
+            padding-top: 10px;
             pointer-events: none;
             position: absolute;
             transition: all 200ms;
@@ -1045,14 +1038,14 @@
             position: absolute;
             z-index: 1;
             font-size: 29px;
-            top: 19px;
+            top: 15px;
         }
         .fa {
             font-size: 45px;
         }
         .question {
             margin: 0 auto;
-            font-size: 27px;
+            font-size: 20px;
         }
         .question i {
             width: 2%;
@@ -1067,1232 +1060,156 @@
             margin-top: 53px;
             text-align: center;
         }
+        .logo5__img{
+            width: 150px;
+        }
     }
-    
-    @media (max-width: 1024px) {
-        .slide_five h1 {
-            margin-left: 0px;
+    @media(max-width: 768px){
+        .win2{
+            font-size: 45px;
         }
-        .slide_one {
-            background-size: contain;
-            background-position: bottom;
+    }
+
+    @media(max-width: 650px){
+        .slide_one span{
+            font-size: 45px;
         }
-        .logo {
-            width: 100%;
-            text-align: center;
-            margin-left: 0px;
+        .participate{
+            font-size: 24px;
         }
-        .slide_one p {
-            margin: 0 auto;
-            font-size: 30px;
-            text-align: center;
-        }
-        .slide_one_container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .information {
-            margin: 0 auto;
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 30px;
-        }
-        .information2 {
-            text-align: center;
-            width: 100%;
-            margin-top: 5px;
-        }
-        .slide_one p {
-            margin: 0 auto;
-            font-size: 36px;
-            text-align: center;
-        }
-        .slide_one span {
-            font-size: 86px;
-        }
-        .slide_one p {
-            margin: 0;
-            font-size: 40px;
-            text-align: center;
-            font-weight: 400;
-            color: white;
-            line-height: 115px;
-            text-transform: uppercase;
-        }
-        .participate {
-            width: 380px;
-            height: 124px;
-            background: linear-gradient( 315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 44px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 50px;
-        }
-        .information {
-            margin: 0 auto;
-            padding-top: 139px;
-            text-align: center;
-            width: 100%;
-            margin-top: 30px;
-        }
-        .information2 {
-            text-align: center;
-            width: 100%;
-            margin-top: 84px;
-        }
-        /* two */
-        .slide_two {
-            background-size: cover;
-            background-position: center;
-        }
-        .slide_two_header {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .win {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 0px;
-            padding-top: 0px;
-            font-size: 86px;
-        }
-        .win2 {
-            width: 100%;
-            margin: 0 auto;
-            padding-left: 0px;
-            padding-top: 50px;
-            font-size: 55px;
-        }
-        .logo2 {
-            margin: 0 auto;
-            margin-top: 39px;
-        }
-        .slide_two_container {
-            padding-top: 5px;
-        }
-        .slide_two h1 {
-            text-align: center;
-            margin: 0;
-            font-size: 30px;
-            font-weight: 400;
-        }
-        .feature {
-            width: 100%;
-            text-align: center;
-        }
-        .features_one {
-            margin-top: 50px;
-        }
-        .features_two {
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-        .features_one,
-        .features_two {
-            display: block;
-        }
-        .feature1 {
-            margin-left: 0px;
-        }
-        .feature2 {
-            margin-right: 0px;
-        }
-        /* three */
-        .slide_three {
-            background-size: contain;
-            background-position: center;
-        }
-        .slide_three_container {
-            margin: 0 auto;
-            text-align: center;
-        }
-        .img_three {
-            width: 100%;
-            background-position: top;
-            background-size: contain;
-        }
-        .timer {
-            margin-top: 20px;
-        }
-        .placeholder-container {
-            position: relative;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .win {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 0px;
-            padding-top: 119px;
-            font-size: 70px;
-        }
-        .feature {
-            width: 100%;
-            height: 118px;
-            color: white;
-            font-size: 46px;
-            border-radius: 30px;
-            text-align: center;
-            padding-top: 10px;
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-        .win2 {
-            width: 100%;
-            margin: 0 auto;
-            padding-left: 0px;
-            padding-top: 184px;
-            font-size: 70px;
-        }
-        /* four */
-        .slide_four {
-            background-size: 150%;
-        }
-        .slide_four i {
-            left: 20px;
-            position: absolute;
-            z-index: 1;
-            font-size: 20px;
-            top: 15px;
-        }
-        .slide_four p {
-            text-align: center;
-            width: 100%;
-            font-size: 18px;
-            margin: 0;
-            margin-top: 60px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 60px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
-        }
-        .logo4,
-        .logo5 {
-            text-align: center;
-        }
-        .placeholder-form {
-            width: 70%;
-        }
-        form {
-            margin-left: 0px;
-        }
-        .slide_four p {
-            text-align: center;
-            margin-right: 0px;
-        }
-        /* five */
-        .slide_five {
-            background-size: cover;
-            background-position: right;
-        }
-        .five_header {
-            display: flex;
-            justify-content: space-around;
-        }
-        .slide_five h1 {
-            margin-top: 30px;
-            font-size: 90px;
-        }
-        .FAQ {
-            width: 100%;
-            margin: 0 auto;
-        }
-        .question {
-            margin: 0 auto;
-            font-size: 25px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 81px;
-            margin-top: 10px;
-        }
-        .question::after {
-            display: block;
-            width: 79%;
-            margin-top: 10px;
-            height: 1px;
-        }
-        .question_part p {
-            font-size: 17px;
-            display: none;
-        }
-        .question_part {
-            margin-bottom: 20px;
-        }
-        .questions {
-            display: block;
-            justify-content: space-around;
-        }
-        .questions_part,
-        .questions_two_part {
-            margin: 0 auto;
-            width: 80%;
-            margin-top: 20px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 70px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
-        }
-        .placeholder-container {
-            position: relative;
-            width: 100%;
-            margin-bottom: 72px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 65px;
-            font-size: 70px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
-        }
-        .question {
-            margin: 0 auto;
-            font-size: 31px;
-        }
-        .fa {
-            font-size: 62px;
-        }
-        .question_part p {
+        .feature{
+            height: auto;
             font-size: 26px;
-            display: none;
         }
-        .FAQ {
-            width: 100%;
-            margin: 112px auto;
-        }
-        .timer__items {
-            display: flex;
-            justify-content: center;
-            font-size: 73px;
-            color: white;
-        }
-        .timer__item::before {
-            text-align: center;
-            content: attr(data-title);
-            display: block;
-            position: absolute;
-            bottom: 0;
-            transform: translateX(-50%);
-            font-size: 25px;
-            left: 50%;
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-        .img_three {
-            margin-top: 149px;
-        }
-        .placeholder-container input {
-            border: none;
-            background-color: rgba(255, 255, 255, 0.192);
-            border-radius: 5px;
-            border: #d31721 0.5px solid;
-            box-sizing: border-box;
-            color: white;
-            font-size: 20px;
-            line-height: 16px;
-            height: 72px;
-            outline: 0;
-            padding: 0px 50px;
-            width: 100%;
-        }
-        .placeholder-container label {
-            color: white;
+        .win2{
             font-size: 32px;
-            padding-top: 10px;
-            pointer-events: none;
-            position: absolute;
-            transition: all 200ms;
-            left: 49px;
-            padding-left: 40px;
-        }
-        .slide_four i {
-            left: 20px;
-            position: absolute;
-            z-index: 1;
-            font-size: 38px;
-            top: 15px;
-        }
-        .slide_four p {
-            text-align: center;
-            width: 100%;
-            font-size: 26px;
-            margin: 0;
-            margin-top: 60px;
-        }
-        .slide_four a {
-            color: rgb(172, 172, 172);
-            font-size: 26px;
-            text-decoration: none;
-            font-weight: bold;
         }
     }
-    
-    @media (max-width: 800px) {
-        .slide_five h1 {
-            margin-left: 0px;
+
+    @media(max-width: 415px){
+        .slide_one p{
+            font-size: 16px;
         }
-        .slide_one {
-            background-size: contain;
-            background-position: bottom;
-        }
-        .logo {
-            width: 100%;
-            text-align: center;
-            margin-left: 0px;
-        }
-        .slide_one p {
-            margin: 0 auto;
+        .slide_one span{
             font-size: 30px;
-            text-align: center;
         }
-        .slide_one_container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .information {
-            margin: 0 auto;
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 30px;
-        }
-        .information2 {
-            text-align: center;
-            width: 100%;
-            margin-top: 5px;
-        }
-        /* two */
-        .slide_two {
-            background-size: cover;
-            background-position: center;
-        }
-        .slide_two_header {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .win {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 0px;
-            padding-top: 0px;
-        }
-        .win2 {
-            width: 100%;
-            margin: 0 auto;
-            padding-left: 0px;
-            padding-top: 50px;
-            font-size: 55px;
-        }
-        .logo2 {
-            margin: 0 auto;
-            margin-top: 39px;
-        }
-        .slide_two_container {
-            padding-top: 5px;
-        }
-        .slide_two h1 {
-            text-align: center;
-            margin: 0;
-            font-size: 30px;
-            font-weight: 400;
-        }
-        .feature {
-            width: 100%;
-            text-align: center;
-        }
-        .features_one {
-            margin-top: 50px;
-        }
-        .features_two {
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-        .features_one,
-        .features_two {
-            display: block;
-        }
-        .feature1 {
-            margin-left: 0px;
-        }
-        .feature2 {
-            margin-right: 0px;
-        }
-        /* three */
-        .slide_three {
-            background-size: contain;
-            background-position: center;
-        }
-        .slide_three_container {
-            margin: 0 auto;
-            text-align: center;
-        }
-        .img_three {
-            width: 100%;
-            background-position: top;
-            background-size: contain;
-        }
-        .timer {
-            margin-top: 20px;
-        }
-        .placeholder-container {
-            position: relative;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        /* four */
-        .slide_four {
-            background-size: 150%;
-        }
-        .slide_four i {
-            left: 20px;
-            position: absolute;
-            z-index: 1;
+        .participate{
             font-size: 20px;
-            top: 15px;
+            width: 234px;
+            height: 52px;
         }
-        .slide_four p {
-            text-align: center;
-            width: 100%;
-            font-size: 18px;
-            margin: 0;
-            margin-top: 60px;
+        .information,
+        .information2{
+            padding-top: 60px;
         }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 60px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
+        .slide_one p{
+            line-height: 45px;
         }
-        .logo4,
-        .logo5 {
-            text-align: center;
+        .win{
+            font-size: 29px;
         }
-        .placeholder-form {
-            width: 50%;
-        }
-        form {
-            margin-left: 0px;
-        }
-        .slide_four p {
-            text-align: center;
-            margin-right: 0px;
-        }
-        /* five */
-        .slide_five {
-            background-size: cover;
-            background-position: right;
-        }
-        .five_header {
-            display: flex;
-            justify-content: space-around;
-        }
-        .slide_five h1 {
-            margin-top: 30px;
-            font-size: 90px;
-        }
-        .FAQ {
-            width: 100%;
-            margin: 0 auto;
-        }
-        .question {
-            margin: 0 auto;
-            font-size: 25px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 81px;
-            margin-top: 10px;
-        }
-        .question::after {
-            display: block;
-            width: 79%;
-            margin-top: 10px;
-            height: 1px;
-        }
-        .question_part p {
-            font-size: 17px;
-            display: none;
-        }
-        .question_part {
-            margin-bottom: 20px;
-        }
-        .questions {
-            display: block;
-            justify-content: space-around;
-        }
-        .questions_part,
-        .questions_two_part {
-            margin: 0 auto;
-            width: 80%;
-            margin-top: 20px;
-        }
-    }
-    
-    @media (max-width: 768px) {
-        .information {
-            margin: 0 auto;
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 98px;
-        }
-        .slide_one p {
-            margin: 0 auto;
-            font-size: 39px;
-            text-align: center;
-        }
-        .win {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            padding-left: 0px;
-            padding-top: 98px;
-        }
-        .feature {
-            width: 100%;
-            height: 70px;
-            color: white;
+        .timer__items{
             font-size: 40px;
-            border-radius: 30px;
-            text-align: center;
-            padding-top: 10px;
-            font-weight: 400;
-            text-transform: uppercase;
+            width: auto;
+            height: 116px;
         }
-        .win2 {
-            width: 100%;
-            margin: 0 auto;
-            padding-left: 0px;
-            padding-top: 93px;
-            font-size: 55px;
-        }
-        .FAQ {
-            width: 100%;
-            margin: 75px auto;
-        }
-    }
-    
-    @media (max-width: 750px) {
-        .slide_one p {
-            font-size: 25px;
-        }
-    }
-    
-    @media (max-width: 700px) {
-        .win {
-            padding-top: 50px;
-            font-size: 45px;
-        }
-        .win2 {
-            padding-top: 50px;
-            font-size: 45px;
-        }
-        .timer__item {
+        .timer__item:not(:last-child)::after{
             margin-left: 10px;
-            margin-right: 10px;
         }
-        .timer__item:not(:last-child)::after {
-            margin-left: 40px;
+        .img_three{
+            margin-top: 0;
         }
-        .question {
-            font-size: 20px;
+        .placeholder-form{
+            width: 95%;
         }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 45px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
-        }
-    }
-    
-    @media (max-width: 650px) {
-        .submit_button {
-            width: 100%;
-            height: 60px;
-        }
-    }
-    
-    @media (max-width: 600px) {
-        .slide_one p {
-            font-size: 19px;
-        }
-        .slide_one span {
-            font-size: 50px;
-        }
-        .img_three {
-            margin-top: 60px;
-        }
-        .logo5 {
-            display: none;
-        }
-        .timer__item:not(:last-child)::after {
-            margin-left: 28px;
-        }
-    }
-    
-    @media (max-width: 500px) {
-        .slide_two {
-            background-size: 190%;
-            background-position: center;
-            background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.52), black), url(..//img/2624544.jpg);
-        }
-    }
-    
-    @media (max-width: 450px) {
-        .slide_one p {
-            line-height: 50px;
-        }
-        .slide_one {
-            background-size: 100%;
-            background-position: bottom;
-        }
-        .timer__item:not(:last-child)::after {
-            margin-left: 15px;
-        }
-        .placeholder-form {
-            width: 70%;
-        }
-        .question {
-            font-size: 17px;
-        }
-    }
-    
-    @media (max-width: 414px) {
-        .information {
-            margin: 0 auto;
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 16px;
-        }
-        .participate {
-            width: 250px;
-            height: 60px;
-            background: linear-gradient( 315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 27px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 32px;
-        }
-        .win {
-            padding-top: 21px;
-            font-size: 40px;
-        }
-        .features_one {
-            margin-top: 22px;
-        }
-        .feature {
-            width: 400px;
-            height: 58px;
-            color: white;
+        .slide_four h1{
             font-size: 26px;
-            border-radius: 30px;
-            text-align: center;
-            padding-top: 10px;
-            font-weight: 400;
-            text-transform: uppercase;
+            margin-bottom: 15px;
         }
-        .win2 {
-            padding-top: 16px;
-            font-size: 41px;
+        .placeholder-container input{
+            height: 49px;
         }
-        form {
-            margin-top: 26px;
+        .placeholder-container label{
+            padding-top: 6px;
         }
-        .slide_five h1 {
-            margin-top: 1px;
-            font-size: 74px;
-        }
-        .question_part p {
-            font-size: 12px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: -18px;
-            margin-top: -2px;
-        }
-    }
-    
-    @media (max-width: 411px) {
-        .participate {
-            width: 250px;
-            height: 60px;
-            background: linear-gradient( 315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 27px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 35px;
-        }
-        .win {
-            padding-top: 23px;
-            font-size: 45px;
-        }
-        .win2 {
-            padding-top: 23px;
-            font-size: 45px;
-        }
-        .timer__items {
-            display: flex;
-            justify-content: center;
-            font-size: 49px;
-            color: white;
-        }
-        .timer__items {
-            display: flex;
-            justify-content: center;
-            font-size: 49px;
-            color: white;
-        }
-        .button_send {
-            margin-top: 38px;
-            text-align: center;
-        }
-        form {
-            margin-top: 40px;
-        }
-        .fa-angle-down {
-            font-size: 25px;
-            cursor: pointer;
-            display: block;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 0px;
-            margin-top: 10px;
-        }
-        .slide_five h1 {
-            margin-top: 30px;
-            font-size: 71px;
-        }
-        .question {
-            font-size: 14px;
-        }
-        .feature {
-            width: 100%;
-            height: 54px;
-            color: white;
-            font-size: 24px;
-            border-radius: 30px;
-            text-align: center;
-            padding-top: -2px;
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-        .img_three {
-            margin-top: 37px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 0px;
-            margin-top: 0px;
-        }
-        .question_part p {
-            font-size: 13px;
-        }
-        .submit_button {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-            height: 60px;
-            background: linear-gradient( 315deg, #d31720d5 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 24px;
-            font-weight: bold;
-            text-transform: uppercase;
-            cursor: pointer;
-            padding-left: 0;
-        }
-    }
-    
-    @media (max-width: 375px) {
-        .slide_one p {
-            margin: 0;
-            text-align: center;
-            font-weight: 400;
-            color: white;
-            line-height: 50px;
-            text-transform: uppercase;
-        }
-        .information {
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 20px;
-        }
-        .slide_one span {
-            font-size: 35px;
-        }
-        .win {
-            padding-top: 23px;
-            font-size: 41px;
-        }
-        .features_one {
-            margin-top: 20px;
-        }
-        .win2 {
-            padding-top: 23px;
-            font-size: 41px;
-        }
-        .timer__item {
-            margin: 0 auto;
-            position: relative;
-            width: 200px;
-            height: 113px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-bottom: 20px;
-            text-align: center;
-        }
-        form {
-            margin-top: -12px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 41px;
-            font-weight: 400;
-            position: relative;
-            text-transform: uppercase;
-        }
-    }
-    
-    @media (max-width: 360px) {
-        .slide_one p {
-            margin: 0;
-            text-align: center;
-            font-weight: 400;
-            color: white;
-            line-height: 35px;
-            text-transform: uppercase;
-        }
-        .information {
-            padding-top: 10px;
-            text-align: center;
-            width: 100%;
-            margin-top: 20px;
-        }
-        .participate {
-            width: 250px;
-            height: 50px;
-            background: linear-gradient(315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 25px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 20px;
-        }
-        .win {
-            padding-top: 50px;
-            font-size: 25px;
-        }
-        .win2 {
-            padding-top: 50px;
-            font-size: 25px;
-        }
-        .feature {
-            font-size: 20px;
-        }
-        .timer__item {
-            margin: 0 auto;
-            position: relative;
-            width: 200px;
-            height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-bottom: 0px;
-            text-align: center;
-        }
-        .timer__items {
-            font-size: 35px;
-            color: white;
-        }
-        .timer__item::before {
-            text-align: center;
-            content: attr(data-title);
-            display: block;
-            position: absolute;
-            bottom: 0;
-            transform: translateX(-50%);
-            font-size: 17px;
-            left: 50%;
-            margin-top: 0px;
-            margin-bottom: 20px;
-        }
-        .placeholder-container {
-            margin-bottom: 20px;
-        }
-        .placeholder-container input {
-            font-size: 15px;
-            line-height: 0px;
-            height: 40px;
-            outline: 0;
-            padding: 0px 50px;
-            width: 100%;
-        }
-        .placeholder-container label {
-            font-size: 15px;
-            padding-top: 10px;
-            left: 10px;
-            padding-left: 40px;
-        }
-        .slide_four i {
-            font-size: 15px;
-            top: 13px;
-        }
-        .slide_five h1 {
-            margin-top: 2px;
-            font-size: 58px;
-        }
-        .question {
-            font-size: 15px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 81px;
-            margin-top: 10px;
-        }
-        .question_part p {
-            font-size: 12px;
-        }
-        .slide_one span {
-            font-size: 35px;
-        }
-        .features_one {
-            margin-top: 20px;
-        }
-        .features_two {
-            margin-top: 0px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 35px;
-        }
-        .submit_button {
-            display: block;
-            width: 100%;
-            height: 50px;
-            background: linear-gradient(315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 25px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 10px;
-        }
-        form {
-            margin-top: 10px;
-        }
-        .fa-angle-down {
-            font-size: 25px;
-            cursor: pointer;
-            display: block;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 0px;
-            margin-top: 10px;
-        }
-    }
-    
-    @media (max-width: 320px) {
-        .slide_one span {
-            font-size: 27px;
-        }
-        .participate {
-            width: 235px;
-            height: 50px;
-            background: linear-gradient( 315deg, #d31721c4 44%, rgb(255, 255, 255) 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 23px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-top: 20px;
-        }
-        .win {
-            padding-top: 22px;
-            font-size: 25px;
-        }
-        .feature {
-            width: 100%;
-            height: 54px;
-            color: white;
-            font-size: 20px;
-            border-radius: 30px;
-            text-align: center;
-            padding-top: -2px;
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-        .win2 {
-            padding-top: 19px;
-            font-size: 25px;
-        }
-        .slide_four h1 {
-            text-align: center;
-            color: white;
-            margin: 0;
-            margin-bottom: 30px;
-            font-size: 30px;
-        }
-        .placeholder-container input {
-            font-size: 15px;
-            line-height: 0px;
-            height: 31px;
-            outline: 0;
-            padding: 0px 50px;
-            width: 100%;
-        }
-        .slide_four i {
-            font-size: 13px;
+        .slide_four i{
             top: 10px;
         }
-        .placeholder-container label {
-            font-size: 12px;
-            padding-top: 7px;
-            left: 10px;
-            padding-left: 40px;
+        .submit_button{
+            width: 232px;
+            height: 43px;
+            font-size: 20px;
+            margin-top: 15px;
         }
-        .question {
+        .slide_four a,
+        .slide_four p{
             font-size: 12px;
         }
-        .question i {
-            width: 2%;
-            margin-left: 0px;
-            margin-top: -2px;
+        .question{
+            font-size: 16px;
+        }
+        .logo5__img-sm{
+            width: 100px;
+        }
+        .logo5__img{
+            width: 60px;
+        }
+        .questions_part,
+        .questions_two_part{
+            width: 95%;
+        }
+        .placeholder-container{
+            margin-bottom: 20px;
+        }
+        .question i{
+            margin-left: 15px;
+        }
+        .question_part p{
+            font-size: 16px;
         }
     }
     
-    @media (max-width: 300px) {
-        .win {
-            padding-top: 50px;
-            font-size: 35px;
+    @media(max-width: 376px){
+        .information,
+        .information2{
+            padding-top: 15px;
         }
-        .win2 {
-            padding-top: 50px;
-            font-size: 35px;
-        }
-        .feature {
+    }
+    @media(max-width: 321px){
+        .feature{
             font-size: 20px;
         }
-        .timer__item {
-            margin: 0 auto;
-            position: relative;
-            width: 200px;
-            height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-bottom: 0px;
-            text-align: center;
+        .logo5{
+            padding-top: 10px;
         }
-        .timer__items {
-            font-size: 35px;
-            color: white;
+        .slide_five h1{
+            font-size: 20px;
+            margin-top: 10px;
         }
-        .timer__item::before {
-            text-align: center;
-            content: attr(data-title);
-            display: block;
-            position: absolute;
-            bottom: 0;
-            transform: translateX(-50%);
-            font-size: 17px;
-            left: 50%;
-            margin-top: 0px;
-            margin-bottom: 20px;
-        }
-        .placeholder-container {
-            margin-bottom: 20px;
+        .button_send{
+            margin-top: 20px;
         }
         .placeholder-container input {
-            font-size: 15px;
-            line-height: 0px;
             height: 40px;
-            outline: 0;
-            padding: 0px 50px;
-            width: 100%;
         }
-        .placeholder-container label {
-            font-size: 15px;
-            padding-top: 10px;
-            left: 10px;
-            padding-left: 40px;
+        .placeholder-container label{
+            font-size: 16px;
         }
-        .slide_four i {
-            font-size: 15px;
-            top: 13px;
+        .slide_four i{
+            font-size: 20px;
         }
-        .slide_five h1 {
-            margin-top: 30px;
-            font-size: 70px;
-        }
-        .question {
-            font-size: 13px;
-        }
-        .question i {
-            width: 2%;
-            margin-left: 81px;
+        .slide_four p{
             margin-top: 10px;
         }
-        .question_part p {
-            font-size: 12px;
+        .questions_part{
+            margin-top: 5px;
         }
-        .slide_one span {
-            font-size: 35px;
+        .FAQ{
+            margin-top: 0;
+            margin-bottom: 0;
         }
-        .question i {
-            width: 1%;
-            margin-left: 81px;
-            margin-top: 10px;
-        }
-        .slide_four h1 {
-            font-size: 35px;
+        .question_part p,
+        .question{
+            font-size: 14px;
         }
     }
